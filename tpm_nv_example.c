@@ -178,7 +178,7 @@ int main(int argc, char *argv[]) {
     }
     printf("\n");
 
-	Esys_Free(read_data);
+    Esys_Free(read_data);
     Esys_Free(nv_name);
     Esys_Free(nv_public);
 
