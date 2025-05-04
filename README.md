@@ -2,6 +2,7 @@
 
 ## Prerequisites
 ```sudo apt-get install libtss2-dev tpm2-tools```
+The code needs to be tested in a system that has a TPM 2.0 implementation. An example of such a system is an Azure Confidential VM.
 
 ## Compile
 ```gcc -o tpm_nv_example tpm_nv_example.c -ltss2-esys -ltss2-sys -ltss2-tctildr```
