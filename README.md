@@ -9,3 +9,5 @@
 ## Run
 ```sudo ./tpm_nv_example```
 
+## Credits
+Code modified from https://gist.github.com/williamcroberts/e08c7a99fa7a66be7c30bd62e38d4e24 by William Roberts
